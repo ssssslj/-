@@ -1,0 +1,389 @@
+body{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.head{
+	width: 100%;
+	/* height: 300px; */
+	background: #8F000B;
+}
+.head_in{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100px;
+	padding-top: 20px;
+	border-bottom: solid 1px white;
+}
+.head_in span{
+	float: right;
+	color: white;
+	font-size: 30px;
+	position: relative;
+	top: 40px;
+}
+.head ul{
+	width: 750px;
+	margin: 0 auto;
+	padding: 0px;
+	overflow: hidden;
+}
+.head li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	
+	transition: all 0.3s; 
+}
+.head_a{
+	display: block;
+	width: 150px;
+	height: 50px;
+	color: white;
+	text-decoration: none;
+	
+	transition: all 0.3s; 
+}
+.head li:hover .head_a{
+	background: white;
+	color: #8F000B;
+	font-weight: bold;
+}
+#head_a{
+	background: white;
+	color: #8F000B;
+	font-weight: bold;
+}
+.main{
+	width: 700px;
+	margin: 0 auto;
+}
+.main ul{
+	padding: 10px 40px;
+	margin-top: 40px;
+	overflow: hidden;
+	background: #eeeeee;
+}
+.main ul a{
+	text-decoration: none;
+	color: black;
+}
+.main li{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	float: left;
+	line-height: 50px;
+	
+	
+}
+.main li p{
+	float: left;
+	width: 530px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0px;
+}
+.main li span{
+	float: right;
+}
+.main h1{
+	text-align: center;
+	margin-top: 40px;
+}
+.school_passage_p{
+	text-align: center;
+}
+.school_passage_body{
+	text-indent:2em;
+	font-size: 18px;
+	line-height: 30px;
+}
+.freeze{
+	background: #2E5A97;
+}
+.using{
+	background: #228B22;
+}
+.freeze,.using{
+	padding: 0px 10px;
+	width: 80px;
+	height: 40px;
+	margin: 5px 0px;
+	float: right;
+	border-radius: 5px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+}
+.school_massage h1{
+	text-align: center;
+}
+.main table{
+	margin-top: 40px;
+}
+.main table td{
+	border: #000000 solid 1px;
+}
+.school_massage_name{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.school_massage_m{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+.addit{
+	width: 700px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	border: none;
+	margin-top: 40px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+.main label input{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 4px;
+}
+.do_school{
+	margin-top: 30px;
+	width: 400px;
+	padding: 0px 150px;
+}
+.do_school button{
+	width: 160px;
+	margin: 0px 20px;
+	float: left;
+	height: 50px;
+	display: block;
+	font-size: 18px;
+}
+
+.deleteit{
+	background: #8F000B;
+}
+.freezeit{
+	background: #2E5A97;
+}
+.addit{
+	background: #228B22;
+}
+.unfreezeit{
+	background: #FFA500;
+}
+#add_form{
+	float: left;
+	width: 100%;
+	display: none;
+	margin-top: 0px;
+}
+.addname,.addpassword{
+	display: block;
+	width: 658px;
+	padding: 0px 20px;
+	font-size: 18px;
+	height: 50px;
+	margin: 5px auto;
+	border: #228B22 solid 1px;
+	border-radius: 5px;
+}
+.addschool{
+	display: block;
+	width: 700px;
+	padding: 0px 20px;
+	font-size: 18px;
+	height: 50px;
+	margin: 10px auto;
+	border: #8F000B solid 1px;
+	border-radius: 5px;
+	background: #8F000B;
+	color: white;
+	cursor: pointer;
+}
+.download_attachment{
+	margin-top: 30px;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+#download_ul{
+	padding: 10px 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	background: white;
+}
+#download_ul li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+#download_ul li:hover{
+	color: #8F000B;
+	font-weight: bold;
+}
+.score h2{
+	text-align: center;
+}
+.score p{
+	font-size: 24px;
+	background: #8F000B;
+	color: white;
+	padding: 10px;
+	margin: 20px 0 0 0 ;
+	border-bottom: solid 2px white;
+}
+.score_table{
+	overflow: hidden;
+	
+}
+.score_title_two{	
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	/* line-height: 100%; */
+}
+.score_title_two_a{
+	width: 630px;
+	margin: 0 auto;
+	border-bottom: solid 1px #8F000B;
+	overflow: hidden;
+	position: relative;
+}
+.score_table p{
+	min-height: 28px;
+	width: 498px;
+	float: left;
+	margin: 0px;
+	border-right: solid 2px white;
+	font-size: 18px;
+	
+	
+	color: black;
+	background: none;
+	
+}
+.score_table input{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 46px;
+	width: 108px;
+	margin: 0px 0px 2px 0px;
+	float: left;
+	border: solid 0px #8F000B;
+	display: block;
+	padding: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+.score_on{
+	width: 300px;
+	margin: 0 auto;
+	height: 50px;
+	margin-top: 40px;
+}
+.score_reset,.score_submit{
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+}
+#seft_add{
+	position: relative;
+	width: 500px;
+	height: 30px;
+	padding: 10px;
+	text-align: left;
+}
+.indexmain{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_left{
+	float: left;
+	width: 700px;
+	height: auto;
+	text-align: left;
+}
+.news_left h1{
+	font-size: 26px;
+}
+.news_left li{
+	width: 680px;
+	padding-right:20px;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+	color: black;
+	
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis
+}
+.ed_link{
+	overflow: hidden;
+	padding: 20px 0px; 
+	background: #eeeeee;
+	width: 1200px;
+	margin: 50px auto 0px auto;
+	position: relative;
+}
+.ed_link li{
+	width: 200px;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+	color: black;
+}
+.ed_link_li:hover{
+	color: #8F000B;
+	font-weight: bold;
+}
+.end{
+	float: left;
+	width: 100%;
+	height: 40px;
+	padding: 5px 0px;
+	background: #444444;
+	text-align: center;
+	color: rgb(204, 204, 204);
+	font-size: 11px;
+	line-height: 20px;
+	margin-top: 100px;
+}
+.end a{
+	color: white;
+	text-decoration: none;
+}
